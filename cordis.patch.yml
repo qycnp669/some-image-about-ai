@@ -1,0 +1,4 @@
+# Add only our own plugin row. Does not replace any official DSH component.
+- insert:
+    - id: session-guard
+      name: dsh-plugin-session-guard
