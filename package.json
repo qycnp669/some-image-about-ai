@@ -1,0 +1,11 @@
+{
+  "name": "dsh-plugin-session-guard",
+  "version": "1.0.2",
+  "description": "Move illegal session backup directories out of dsh sessions root",
+  "type": "module",
+  "main": "index.js",
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "cordis"],
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}
